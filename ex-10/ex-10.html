@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>D3 Example 1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+    
+    <div class="canvas">        
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.4/firebase-firestore.js"></script>
+    <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyAlaLjAQ9u40PVX7-5JZGMMGgII2C_9rpk",
+        authDomain: "test-da1d6.firebaseapp.com",
+        databaseURL: "https://test-da1d6.firebaseio.com",
+        projectId: "test-da1d6",
+        storageBucket: "test-da1d6.appspot.com",
+        messagingSenderId: "1091425503083"
+    };
+    firebase.initializeApp(config);
+    const db = firebase.firestore();
+    </script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="index.js"></script>
+
+</body>
+</html>
